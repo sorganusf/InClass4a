@@ -2,17 +2,20 @@
 
 namespace InClass3
 {
-    class Car
+    class Person
     {
-        public string model = "Mustang";
-    }
-    class Program
-    { 
-        static void Main(string[] args)
+        private string name;
+        public string Name
         {
-            Car myObj = new Car();
-            Console.WriteLine(myObj.model);
-            
+            get { return name; }
+            set { name = value; }
         }
     }
-}
+        class Program
+        {
+            static void Main(string[] args)
+            {
+
+            }
+        }
+    }
